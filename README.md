@@ -15,7 +15,7 @@ At the terminal run the command
 python3 -m pip install -U -r requirements.txt
 
 python3 manage.py makemigrations
-python3 manage.py
+python3 manage.py migrate
 
 python3 manage.py runserver
 ```
